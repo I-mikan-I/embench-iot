@@ -9,7 +9,3 @@
    SPDX-License-Identifier: GPL-3.0-or-later */
 
 /* Should match board.cfg (and why have to specify it again). */
-
-#define CPU_MHZ 10
-#define WASM 1
-#define WASM_ENTRY _run()
