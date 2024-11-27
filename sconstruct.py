@@ -32,7 +32,7 @@ def parse_options():
     vars.Add('cflags', default=env['CCFLAGS'])
     vars.Add('ld', default=env['LINK'])
     vars.Add('ldflags', default=env['LINKFLAGS'])
-    vars.Add('user_libs', default=[])
+    vars.Add('user_libs', default="")
     vars.Add('warmup_heat', default=1,
              help='Number of iterations to warm up caches before measurements')
     vars.Add('gsf', default=1, help='Global scale factor')
